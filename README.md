@@ -12,7 +12,7 @@
          
 ##### Working
 
-* We define **three** scripts for the face recognition:
+We define **three** scripts for the face recognition:
 
 * **data_set.py** : Before running, **make a folder "dataset" on the same path as the python script**. This script creates
 
