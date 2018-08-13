@@ -38,7 +38,9 @@ We define **three** scripts for the face recognition:
 
 * **recog.py** : By running this script using "python recog.py", we allow the webcam to start and thus recognise
 
-     with a confidence level the users defined in the first script.
+     with a confidence level(0% = Perfect match) the users defined in the first script. We include an array for the names of 
+     
+     user. Make sure to modify it accordingly.
               
 #### NOTE: We can get better performance by tweaking some of the parameters like increasing the condition of count and taking more samples of training data. The performance is also dependent on the GPU/CPU cores involved. Using a good GPU can significantly enhance the fps 
 
