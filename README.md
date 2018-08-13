@@ -41,6 +41,7 @@ We define **three** scripts for the face recognition:
      with a confidence level the users defined in the first script.
               
 #### NOTE: We can get better performance by tweaking some of the parameters like increasing the condition of count and taking more samples of training data. The performance is also dependent on the GPU/CPU cores involved. Using a good GPU can significantly enhance the fps 
-              
+
+[LINK TO VIDEO](https://youtu.be/E5L5vEXQ9e0)
  
  2. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
