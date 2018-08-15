@@ -14,7 +14,7 @@
 
 We define **three** scripts for the face recognition:
 
-* **data_set.py** : Before running, **make a folder "dataset" on the same path as the python script**. This script creates
+* [**data_set.py**](https://github.com/ZER-0-NE/DataScience_AbsoluteFace/blob/master/absolute_face_1/data_set.py) : Before running, **make a folder "dataset" on the same path as the python script**. This script creates
 
      samples of user faces live from the webcam. This is a very fast process and you
 
@@ -28,7 +28,7 @@ We define **three** scripts for the face recognition:
 
      "user1.2.jpg" for first user and similarly "user.2.1.jpg", user.2.2.jpg" for second user.
 
-* **trainer.py** : **Create a folder namely Trainer in the same way you created dataset folder**. This script trains for 
+* [**trainer.py**](https://github.com/ZER-0-NE/DataScience_AbsoluteFace/blob/master/absolute_face_1/trainer.py) : **Create a folder namely Trainer in the same way you created dataset folder**. This script trains for 
      
      the number of users mentioned in the previous script. To run it, use 
 
@@ -36,7 +36,7 @@ We define **three** scripts for the face recognition:
 
      Histograms) recognizer included in OpenCV. In the next section we make use of Deep Learning
 
-* **recog.py** : By running this script using "python recog.py", we allow the webcam to start and thus recognise
+* [**recog.py**](https://github.com/ZER-0-NE/DataScience_AbsoluteFace/blob/master/absolute_face_1/recog.py ): By running this script using "python recog.py", we allow the webcam to start and thus recognise
 
      with a confidence level(0% = Perfect match) the users defined in the first script. We include an array for the names of 
      
