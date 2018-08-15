@@ -93,4 +93,4 @@ We define **three** scripts for the face recognition:
   
   4. [Facial Recognition System](https://viblo.asia/p/facial-recognition-system-face-recognition-Ljy5Vr6j5ra#_create-a-sample-convolutional-neural-networkcnn-1) and [Repo](https://github.com/RathanakSreang/MachineLearning/tree/master/FacialRecognition)
   
-  5. [Light weight facial recognition model](https://github.com/vinayakkailas/Face_Recognition)using pre-trained facenet model which is heavily dependent on OpenFace.
+  5. [Light weight facial recognition model](https://github.com/vinayakkailas/Face_Recognition) using pre-trained facenet model which is heavily dependent on OpenFace.
