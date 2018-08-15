@@ -72,7 +72,12 @@ We define **three** scripts for the face recognition:
 
 │   ├── chillar [25 entries]
 
-  * We use the face_recognition module pretrained on ~3 million images and create 128-d images for our dataset using the [encode_faces.py](https://github.com/ZER-0-NE/DataScience_AbsoluteFace/blob/master/absolute_face_2/encode_faces.py) script.
+  * We use the [face_recognition](https://github.com/ageitgey/face_recognition) module pretrained on ~3 million images and create 128-d images for our dataset using the [encode_faces.py](https://github.com/ZER-0-NE/DataScience_AbsoluteFace/blob/master/absolute_face_2/encode_faces.py) script.
+  
+  * Having set our dataset and all the dependencies installed, we run the encode_faces.py script using "python encode_faces.py --dataset dataset --encodings encodings.pickle". **If you are on **CPU, change the --detection-method argument to hog.** We then get a file named encodings.pickle with all the 128-d embeddings.
 
- 
- 3. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
+  * After getting the embeddings, we run the [recognise_faces_video.py](https://github.com/ZER-0-NE/DataScience_AbsoluteFace/blob/master/absolute_face_2/recognize_faces_video.py) using "python recognize_faces_video.py --encodings encodings.pickle \ --output output/facerec_output.avi --display".
+  
+  #### NOTE: The accuracy of recognition depends on the training data used. By data augmentation, it has been proved and verified that the accuracy would increase. We can employ such methods to get more accurate recognition rates though we see the recognition rate is quite high even for around ~25 images for each class.
+  
+  3. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
