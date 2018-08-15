@@ -44,7 +44,7 @@ We define **three** scripts for the face recognition:
               
 #### NOTE: We can get better performance by tweaking some of the parameters like increasing the condition of count and taking more samples of training data. The performance is also dependent on the GPU/CPU cores involved. Using a good GPU can significantly enhance the fps 
 
-[LINK TO VIDEO](https://youtu.be/E5L5vEXQ9e0)
+**[LINK TO VIDEO](https://youtu.be/E5L5vEXQ9e0)**
  
  **2. Using Deep Metric Learning with references from [Adrian's Blog](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)**
  
@@ -80,7 +80,7 @@ We define **three** scripts for the face recognition:
   
   #### NOTE: The accuracy of recognition depends on the training data used. By data augmentation, it has been proved and verified that the accuracy would increase. We can employ such methods to get more accurate recognition rates though we see the recognition rate is quite high even for around ~25 images for each class.
   
-  [Link](https://youtu.be/tYZqYTzzzgk) to video
+  **[Link](https://youtu.be/tYZqYTzzzgk) to video**
   
   3. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
 
