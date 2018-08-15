@@ -1,6 +1,6 @@
 # DataScience_AbsoluteFace
 
-#### I make use of three methods for face recognition:
+#### I make use of three major methods for face recognition:
 **1. References from the [face recognition](https://github.com/thecodacus/Face-Recognition) repository on github.**
  
 ##### Dependencies:
@@ -81,3 +81,16 @@ We define **three** scripts for the face recognition:
   #### NOTE: The accuracy of recognition depends on the training data used. By data augmentation, it has been proved and verified that the accuracy would increase. We can employ such methods to get more accurate recognition rates though we see the recognition rate is quite high even for around ~25 images for each class.
   
   3. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
+
+
+
+
+
+
+
+
+  #### NOTE: Below methods could not be carried out in the stipulated time period due to insufficient GPU memory(locally, but can be trained on GoogleCloud upon request).
+  
+  4. [Facial Recognition System](https://viblo.asia/p/facial-recognition-system-face-recognition-Ljy5Vr6j5ra#_create-a-sample-convolutional-neural-networkcnn-1) and [Repo](https://github.com/RathanakSreang/MachineLearning/tree/master/FacialRecognition)
+  
+  5. [Light weight facial recognition model](https://github.com/vinayakkailas/Face_Recognition)using pre-trained facenet model which is heavily dependent on OpenFace.
