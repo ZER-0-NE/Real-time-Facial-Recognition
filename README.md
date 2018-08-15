@@ -80,6 +80,8 @@ We define **three** scripts for the face recognition:
   
   #### NOTE: The accuracy of recognition depends on the training data used. By data augmentation, it has been proved and verified that the accuracy would increase. We can employ such methods to get more accurate recognition rates though we see the recognition rate is quite high even for around ~25 images for each class.
   
+  [Link](https://youtu.be/tYZqYTzzzgk) to video
+  
   3. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
 
 
