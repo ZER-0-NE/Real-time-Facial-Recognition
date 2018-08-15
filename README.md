@@ -1,6 +1,6 @@
 # DataScience_AbsoluteFace
 
-#### I make use of two methods for face recognition:
+#### I make use of three methods for face recognition:
 1. References from the [face recognition](https://github.com/thecodacus/Face-Recognition) repository on github.
  
 ##### Dependencies:
@@ -46,4 +46,33 @@ We define **three** scripts for the face recognition:
 
 [LINK TO VIDEO](https://youtu.be/E5L5vEXQ9e0)
  
- 2. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
+ 2. Using Deep Metric Learning with references from [Adrian's Blog](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
+ 
+ ##### Dependencies:
+  * Python 2/3
+  
+  * OpenCV module for the respective python version
+  
+  * Dlib
+  
+  * face_recognition module installed
+  
+  * A GPU is preferred but not necessary.
+  
+  ##### Working:
+  
+  * Create a dataset for the user faces(cropped properly) and store them in a folder 'dataset'. 
+  The tree should look something like this:
+  
+  ├── dataset
+  
+│   ├── abhi [24 entries]
+
+│   ├── sidmo [26 entries]
+
+│   ├── chillar [25 entries]
+
+  * We use the face_recognition module pretrained on ~3 million images and create 128-d images for our dataset using the [encode_faces.py](https://github.com/ZER-0-NE/DataScience_AbsoluteFace/blob/master/absolute_face_2/encode_faces.py) script.
+
+ 
+ 3. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
