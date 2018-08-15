@@ -1,6 +1,6 @@
 # USAGE
 # python recognize_faces_video.py --encodings encodings.pickle
-# python recognize_faces_video.py --encodings encodings.pickle --output output/jurassic_park_trailer_output.avi --display 0
+# python recognize_faces_video.py --encodings encodings.pickle --output output/output_test.avi --display 1
 
 # import the necessary packages
 from imutils.video import VideoStream
