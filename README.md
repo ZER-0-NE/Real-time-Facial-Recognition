@@ -1,7 +1,7 @@
 # DataScience_AbsoluteFace
 
 #### I make use of three methods for face recognition:
-1. References from the [face recognition](https://github.com/thecodacus/Face-Recognition) repository on github.
+**1. References from the [face recognition](https://github.com/thecodacus/Face-Recognition) repository on github.**
  
 ##### Dependencies:
   * Python 2/3
@@ -46,7 +46,7 @@ We define **three** scripts for the face recognition:
 
 [LINK TO VIDEO](https://youtu.be/E5L5vEXQ9e0)
  
- 2. Using Deep Metric Learning with references from [Adrian's Blog](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
+ **2. Using Deep Metric Learning with references from [Adrian's Blog](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)**
  
  ##### Dependencies:
   * Python 2/3
