@@ -83,15 +83,18 @@ We define **three** scripts for the face recognition:
   **[Link](https://youtu.be/tYZqYTzzzgk) to video**
   
   3. Using [face_recognition](https://github.com/ageitgey/face_recognition) module developed by Adam Geitgey
+  
+  The module is simple and easy to use but the **recognition rate hugely depends on the image of user chosen.** It is advised to use an image which perfectly and clearly covers the whole face.
+  
+  The script can be used by simply adding the images in the script. The face_recognition module is built in such a way that it makes it easier for the end-user to use.
+  
+  #### NOTE: The video recorded below leads to some erroneous recognition rate. This can simply be improved by using a suitable image of suitable size. 
+  
+   * [Link to video](https://youtu.be/nq_eCxdOf-g)
 
 
 
-
-
-
-
-
-  #### NOTE: Below methods could not be carried out in the stipulated time period due to insufficient GPU memory(locally, but can be trained on GoogleCloud upon request).
+  ### NOTE: Below methods could not be carried out in the stipulated time period due to insufficient GPU memory(locally, but can be trained on GoogleCloud upon request).
   
   4. [Facial Recognition System](https://viblo.asia/p/facial-recognition-system-face-recognition-Ljy5Vr6j5ra#_create-a-sample-convolutional-neural-networkcnn-1) and [Repo](https://github.com/RathanakSreang/MachineLearning/tree/master/FacialRecognition)
   
