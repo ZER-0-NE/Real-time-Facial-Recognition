@@ -1,4 +1,4 @@
-# DataScience_AbsoluteFace
+# Methods for LIVE Facial recognition
 
 #### I make use of three major methods for face recognition:
 **1. References from the [face recognition](https://github.com/thecodacus/Face-Recognition) repository on github.**
@@ -92,9 +92,6 @@ We define **three** scripts for the face recognition:
   
    * [Link to video](https://youtu.be/nq_eCxdOf-g)
 
-
-
-  ### NOTE: Below methods could not be carried out in the stipulated time period due to insufficient GPU memory(locally, but can be trained on GoogleCloud upon request).
   
   4. [Facial Recognition System](https://viblo.asia/p/facial-recognition-system-face-recognition-Ljy5Vr6j5ra#_create-a-sample-convolutional-neural-networkcnn-1) and [Repo](https://github.com/RathanakSreang/MachineLearning/tree/master/FacialRecognition)
   
